@@ -14,7 +14,7 @@
 
 <script>
 
-import { shouldBeVisible } from '@/utils/SectionHelpers';
+// import { shouldBeVisible } from '@/utils/SectionHelpers';
 
 export default {
   name: 'Footer',
@@ -37,7 +37,8 @@ export default {
   },
   computed: {
     visible() {
-      return shouldBeVisible(this.$route.name);
+      return false;
+      // return shouldBeVisible(this.$route.name);
     },
   },
 };
